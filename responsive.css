@@ -1,0 +1,120 @@
+.none{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+
+    /* header section */
+    /* .navbar-section {
+        flex-direction: column;
+        gap: 30px;
+    } */
+    .navbar-section{
+        width: 90%;
+    }
+    .navbar-section ul li{
+        display: none;
+    }
+    .navbar-section ul button{
+        display: none;
+    }
+    .navbar-section ul::after{
+        content: '\f0c9';
+        font-weight: 900;
+        font-family: 'Font Awesome 5 Free';
+        font-size: 40px;
+    }
+    .header-content {
+        width: 90%;
+    }
+    .header-content-wrap{
+        background-image: none;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .header-content h3 {
+        font-size: 35px;
+    }
+    .header-content h1 {
+        font-size: 47px;
+    }
+    .header-content p {
+        width: 90%;
+        font-size: 16px;
+    }
+    .header-content button.btn-primary-outline {
+        margin-left: 0;
+    }
+    .header-img img {
+        width: 100%;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+    .header-section::after {
+        background: none;
+    }
+    /* about section */
+    .about-content {
+        padding: 10px;
+    }
+    .about-content p{
+        font-size: 15px;
+    }
+    .profile-name {
+        margin-bottom: 12px;
+    }
+    /* service section */
+    .service-box-wrap, .resume-wrap, .about-me-content {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .service-title-box {
+        margin-bottom: 30px;
+    }
+    .service-box {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .service-title-box p{
+        width: 90%;
+    }
+    /* resome section */
+    .primary-title {
+        font-size: 31px;
+        margin-bottom: 30px;
+    }
+    .common-title h2 {
+        font-size: 26px;
+    }
+    .my-education-box h1 {
+        font-size: 21px;
+    }
+    .my-education, .my-experience {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* contact and footer */
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-about {
+        width: 90%;
+        padding-right: 0;
+    }
+    .footer-about .primary-title {
+        margin-bottom: 5px;
+      }
+    .footer-contact {
+        width: 90%;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .footer-contact input, textarea {
+        width: 90%;
+    }
+}
